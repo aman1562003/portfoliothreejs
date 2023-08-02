@@ -1,0 +1,8 @@
+
+dist/
+
+# Ignore dependencies
+node_modules/
+
+
+
