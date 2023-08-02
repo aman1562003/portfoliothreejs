@@ -1,0 +1,11 @@
+Model Information:
+* title:	X-Wing
+* source:	https://sketchfab.com/3d-models/x-wing-a185c8bb6e9d43e4b597b856b176d768
+* author:	chris_warstat (https://sketchfab.com/chris_warstat)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "X-Wing" (https://sketchfab.com/3d-models/x-wing-a185c8bb6e9d43e4b597b856b176d768) by chris_warstat (https://sketchfab.com/chris_warstat) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
