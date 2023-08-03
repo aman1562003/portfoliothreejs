@@ -1,11 +1,11 @@
-import { EarthCanvas, BallCanvas, ComputersCanvas, StarsCanvas, MoonsCanvas,BatsCanvas,BlackPanthersCanvas, IronhelsCanvas } from './canvas';
+import {BallCanvas,  StarsCanvas, MoonsCanvas,BatsCanvas,BlackPanthersCanvas, IronhelsCanvas } from './canvas';
 import Hero from './Hero';
 import Navbar from './Navbar';
 import About from './About';
 import Tech from './Tech';
 import Experience from './Experience';
-import Works from './Works';
 import Contact from './Contact';
+import Work from './Project';
 
 export {
   Hero,
@@ -13,11 +13,10 @@ export {
   About,
   Tech,
   Experience,
-  Works,
-  Contact,
-  EarthCanvas, 
+  Contact, 
+  Work,
   BallCanvas, 
-  ComputersCanvas, 
+
   MoonsCanvas,
   BatsCanvas,
   BlackPanthersCanvas,
