@@ -3,7 +3,6 @@ import { useState, useEffect, lazy, Suspense } from 'react';
 
 import { styles } from '../styles';
 
-const BatsCanvas = lazy(() => import('./canvas').then(module => ({ default: module.BatsCanvas })));
 const BlackPanthersCanvas = lazy(() => import('./canvas').then(module => ({ default: module.BlackPanthersCanvas })));
 const IronhelsCanvas = lazy(() => import('./canvas').then(module => ({ default: module.IronhelsCanvas })));
 
@@ -11,7 +10,7 @@ const Hero = () => {
   const [randomIndex, setRandomIndex] = useState(null);
 
   useEffect(() => {
-    setRandomIndex(Math.floor(Math.random() * 3));
+    setRandomIndex(Math.floor(Math.random() * 2));
   }, []);
 
   return (
@@ -33,15 +32,10 @@ const Hero = () => {
    
       {randomIndex === 0 && (
         <Suspense fallback={null}>
-          <BatsCanvas />
-        </Suspense>
-      )}
-      {randomIndex === 1 && (
-        <Suspense fallback={null}>
           <BlackPanthersCanvas />
         </Suspense>
       )}
-      {randomIndex === 2 && (
+      {randomIndex === 1 && (
         <Suspense fallback={null}>
           <IronhelsCanvas />
         </Suspense>

@@ -1,4 +1,4 @@
-import {BallCanvas,  StarsCanvas, MoonsCanvas,BatsCanvas,BlackPanthersCanvas, IronhelsCanvas } from './canvas';
+import {BallCanvas,  StarsCanvas, MoonsCanvas,BlackPanthersCanvas, IronhelsCanvas } from './canvas';
 import Hero from './Hero';
 import Navbar from './Navbar';
 import About from './About';
@@ -18,7 +18,6 @@ export {
   BallCanvas, 
 
   MoonsCanvas,
-  BatsCanvas,
   BlackPanthersCanvas,
   IronhelsCanvas,
   StarsCanvas

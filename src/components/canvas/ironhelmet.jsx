@@ -20,8 +20,8 @@ const Ironhels = ({ isMobile }) => {
       <primitive
         object={ironhel.scene}
         autoRotate
-        scale={isMobile ? 0.2 : 0.005}
-        position={isMobile ? [0, -3, 0] : [0, -2.0, 0.2]}
+        scale={isMobile ? 0.005 : 0.005}
+        position={isMobile ? [0, -1, 0.1] : [0, -2.0, 0.2]}
         rotation={[0, 1, 0]}
       />
     </mesh>
